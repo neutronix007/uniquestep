@@ -6,7 +6,22 @@ Description: Mediplus - Doctor HTML Template.
 Version:	1.1
 ========================================*/   
 /* Tablet Screen */
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+	.navigation .nav.menu li a.btn {
+        display: inline-block;
+        width: auto;
+        padding: 8px 16px;
+        font-size: 14px;
+        line-height: normal;
+        margin: 5px 0;
+        text-align: center;
+        vertical-align: middle; /* Ensure vertical alignment */
+        background-color: #9C27B0; /* Set the background color */
+        color: #9C27B0; /* Set the text color */
+        border-radius: 4px; /* Optional: add border-radius for rounded corners */
+        text-decoration: none; /* Remove underline from the text */
+    }
 /* Header Sticky */
 .section{
 	padding:70px 0px;
@@ -366,6 +381,22 @@ Version:	1.1
 .footer .footer-top {
 	padding: 65px 0px;
 }
+.navigation .nav.menu li a.btn {
+	
+	display: inline-block;
+	width: auto;
+	padding: 8px 16px;
+	font-size: 14px;
+	line-height: normal;
+	margin: 5px 0;
+	text-align: center;
+	vertical-align: middle; /* Ensure vertical alignment */
+	background-color: #9C27B0; /* Set the background color */
+	color: #ffffff; /* Set the text color */
+	border-radius: 4px; /* Optional: add border-radius for rounded corners */
+	text-decoration: none; /* Remove underline from the text */
+	margin-top: 16px;
+}
 
 
 
@@ -377,6 +408,21 @@ Version:	1.1
 }
 /* Mobile Screen */
 @media only screen and (max-width: 767px) {
+		.navigation .nav.menu li a.btn {
+        display: inline-block;
+        width: auto;
+        padding: 8px 16px;
+        font-size: 14px;
+        line-height: normal;
+        margin: 5px 0;
+        text-align: center;
+        vertical-align: middle; /* Ensure vertical alignment */
+        background-color: #9C27B0; /* Set the background color */
+        color: #ffffff; /* Set the text color */
+        border-radius: 4px; /* Optional: add border-radius for rounded corners */
+        text-decoration: none; /* Remove underline from the text */
+    }
+	
 .header.sticky{
 	
 }
@@ -443,6 +489,29 @@ Version:	1.1
 	background: none;
 	padding: 4px 10px;
 }
+
+.slicknav_nav li a.btn1 {
+	color: #ffffff;
+	transition: all 0.4s ease;
+	background: none;
+	padding: 10px 10px;
+	background-color: #9C27B0;
+}
+
+.slicknav_nav li a.btn1:hover {
+	color: #ffffff;
+	transition: all 0.4s ease;
+	background: none;
+	padding: 10px 10px;
+	background-color: #2C2D3F;
+}
+
+.slicknav_nav li a {
+	color: #2C2D3F;
+	transition: all 0.4s ease;
+	background: none;
+	padding: 4px 10px;
+}
 .slicknav_nav .slicknav_item a, .slicknav_nav .slicknav_parent-link a {
 	padding: 0 10px;
 	background:transparent;
@@ -452,14 +521,14 @@ Version:	1.1
 	margin:0;
 }
 .slicknav_nav li:hover a{
-	color:#1A76D1;
+	color:#2C2D3F;
 }
 .slicknav_nav li .dropdown li a{
 	color:#2C2D3F;
 	background:transparent;
 }
 .slicknav_nav li .dropdown li a:hover{
-	color:#1A76D1;
+	color:#2C2D3F;
 }
 .slicknav_nav li .slicknav_item{
 	background:transparent;
@@ -471,7 +540,7 @@ Version:	1.1
 	font-weight:400;
 }
 .slicknav_menu .slicknav_icon-bar {
-	background-color: #1A76D1;
+	background-color: #9C27B0;
 	box-shadow: none;
 	text-shadow: none;
 }
@@ -479,7 +548,7 @@ Version:	1.1
 	color:#2C2D3F;
 }
 .slicknav_nav li:hover .slicknav_arrow{
-	color:#1A76D1;
+	color:#9C27B0;
 }
 .slicknav_menu .slicknav_icon-bar {
 	display: block;
