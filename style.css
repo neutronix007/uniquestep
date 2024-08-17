@@ -2865,6 +2865,26 @@ body{
 .login .login-form{
 	padding:50px 40px;
 }
+
+
+/* Styling for the "View Policies" button on mobile */
+@media (max-width: 767px) {
+    .navigation .nav.menu li a.btn {
+        display: inline-block;
+        width: auto;
+        padding: 8px 16px;
+        font-size: 14px;
+        line-height: normal;
+        margin: 5px 0;
+        text-align: center;
+        vertical-align: middle; /* Ensure vertical alignment */
+        background-color: #9C27B0; /* Set the background color */
+        color: #9C27B0; /* Set the text color */
+        border-radius: 4px; /* Optional: add border-radius for rounded corners */
+        text-decoration: none; /* Remove underline from the text */
+    }
+}
+
 .login .login-form h2 {
 	position: relative;
 	font-size: 32px;
