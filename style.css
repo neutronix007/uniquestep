@@ -54,6 +54,24 @@ body{
 	font-size:14px;
 	color:#888;
 }
+
+.toppp {
+	color: #ffffff;
+	background-color: #2C2D3F;
+}
+.icon-text {
+	display: flex;
+	align-items: center;
+	color: #ffffff; /* Change this to your desired text color */
+	margin-bottom: 5px;
+  }
+  
+  .icon-text .fa-check-circle {
+	color: #ffffff; /* Change this to your desired icon color */
+	margin-right: 10px; /* Adjust the spacing between the icon and the text */
+	
+  }
+  
 .pro-features {
 	position: fixed;
 	right: -300px;
