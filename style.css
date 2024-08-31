@@ -61,16 +61,18 @@ body{
 }
 .icon-text {
 	display: flex;
+	padding: 10px;
+	height: 50px;
 	align-items: center;
-	color: #ffffff; /* Change this to your desired text color */
-	margin-bottom: 5px;
-  }
-  
-  .icon-text .fa-check-circle {
-	color: #ffffff; /* Change this to your desired icon color */
-	margin-right: 10px; /* Adjust the spacing between the icon and the text */
-	
-  }
+	background-color: #ff7f11; 
+	justify-content: center; 
+	color: white;
+	text-align: center;
+}
+.icon-large{
+	font-size: 2em;
+	margin-right: 10px;
+}
   
 .pro-features {
 	position: fixed;
@@ -260,6 +262,49 @@ body{
 /*===================
 	Start Header CSS 
 =====================*/
+
+
+.top-contact-container {
+    display: flex;                  /* Flexbox container */
+    justify-content: center;        /* Center horizontally */
+    align-items: center;            /* Center vertically */
+    width: 100%;                    /* Full width */
+    padding: 10px 0;                /* Add some padding for spacing */
+    overflow-x: auto;               /* Enable horizontal scrolling if needed */
+}
+
+.top-contact {
+    list-style: none;               /* Remove bullet points */
+    padding: 0;                     /* Remove default padding */
+    margin: 0;                      /* Remove default margin */
+    display: flex;                  /* Display list items in a row */
+    gap: 20px;                      /* Add space between items */
+    justify-content: center;        /* Center items within the container */
+    white-space: nowrap;            /* Prevent items from wrapping */
+    overflow: hidden;               /* Hide overflow */
+}
+
+.top-contact li {
+    display: flex;                  /* Flex items */
+    align-items: center;            /* Center vertically within list items */
+    color: white;                   /* White text color */
+}
+
+.top-contact li i {
+    margin-right: 5px;              /* Space between icon and text */
+}
+
+.top-contact li a {
+    color: white;                   /* White text color */
+    text-decoration: none;          /* Remove underline */
+}
+
+@media (max-width: 768px) {
+    .top-contact {
+        gap: 10px;                  /* Smaller gap on mobile */
+    }
+}
+
 .header{
 	background-color:#fff;
 	position:relative;
@@ -294,7 +339,7 @@ body{
 	color:#9C27B0;
 }
 .header .top-contact{
-	float:right;
+		float:right;
 }
 .header .top-contact li{
 	display:inline-block;
